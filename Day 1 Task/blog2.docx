@@ -1,0 +1,120 @@
+OBJECT AND ITS INTERNAL REPRESENTATION:-
+
+  * Objects, in JavaScript, are the most important data type and form the building blocks for modern JavaScript. 
+These objects are quite different from JavaScript’s primitive data types (Number, String, Boolean, null, undefined,
+ and symbol) in the sense that these primitive data types all store a single value each (depending on their types).
+  * Object()  can be called with or without new. Both create a new object.
+
+Syntax:
+
+new Object(value)
+
+Object(value)
+
+let object_name = {
+    key_name : value,
+    ...
+}
+
+JavaScript Object Properties: A JavaScript property is a member of an object that associates a key with a value.
+
+Instance Properties: An instance property is a property that has a new copy for every new instance of the class.
+
+_________________________________________________________________________________________________________________
+|                INSTANCE PROPERTIES                     |                 DESCRIPTION                           |
+|________________________________________________________|_______________________________________________________|
+|                                                        |                                                       |
+|                 constructor                            |  Returns a reference to the object constructor        |
+|                                                        |function that has created the instance of an object.   |                   
+|________________________________________________________|_______________________________________________________|
+
+
+JavaScript Object Methods: JavaScript methods are actions that can be performed on objects. 
+
+Static Methods: If the method is called using the Object class itself then it is called a static method of Object.
+
+_________________________________________________________________________________________________________________
+|                STATIC METHODS                          |                  DESCRIPTION                          |
+|________________________________________________________|_______________________________________________________|
+|                                                        |                                                       |
+|             assign()                                   |  Copy the values and properties from one or more      |
+|                                                        | source objects to a target object.                    |
+|                                                        |                                                       |
+|             create()                                   |  JavaScript does not have the traditional classes seen|
+|                                                        | in other languages.                                   |
+|                                                        |                                                       |
+|             defineProperty()                           |  Defines a new property directly on an object and     |
+|                                                        | returns the object.                                   |
+|                                                        |                                                       |
+|             defineProperties()                         |  Defines object a new or modifies existing properties |
+|                                                        | directly on an object and it returns the object.      |
+|                                                        |                                                       |
+|             entries()                                  |  Return an array consisting of enumerable property    |
+|                                                        | [key, value] pairs of the object.                     |
+|                                                        |                                                       |
+|             freeze()                                   |  There is a method Object.freeze() which is used to   |
+|                                                        | freeze an object.                                     |
+|                                                        |                                                       |
+|             fromEntries()                              |  Transform a list of key-value pairs into an object.  |
+|                                                        |                                                       |
+|             getOwnPropertyDescriptor()                 |  Returns a property descriptor for the own property   |
+|                                                        | of a given object.                                    |
+|                                                        |                                                       |
+|             getOwnPropertyNames()                      |  Returns all properties that are present in a given   |
+|                                                        | object.                                               |
+|                                                        |                                                       |
+|             getOwnPropertySymbols()                    |  Returns an array of all symbol properties that are   |
+|                                                        | present in a given object.                            |
+|                                                        |                                                       |
+|             getPrototypeOf()                           |  Check the prototype of an object that the user has   |
+|                                                        | created.                                              |
+|                                                        |                                                       |
+|             hasOwn()                                   |  Checks if a given property exists or not.            |
+|                                                        |                                                       |
+|             Object.is()                                |  Determine whether two values are the same or not.    |
+|                                                        |                                                       |
+|             isExtensible()                             |  Checks whether an object is extensible or not.       |
+|                                                        |                                                       |
+|             isFrozen()                                 |  Determine if an object is frozen or not.             |
+|                                                        |                                                       |
+|             isSealed()                                 |  Determine if an object is sealed or not.             |
+|                                                        |                                                       |
+|              keys()                                    |  Return an array whose elements are strings           |
+|                                                        | corresponding to the enumerable properties.           |
+|                                                        |                                                       |
+|             preventExtensions()                        |  Additionally, it prevents the prototype of the item  |
+|                                                        | from being changed.                                   |
+|                                                        |                                                       |
+|             seal()                                     |  There is a method Object.seal() which is used to seal|
+|                                                        | an object.                                            |
+|                                                        |                                                       |
+|             setPrototype()                             |  The internal [[Prototype]] property of a specified   |
+|                                                        | object to another object or null.                     |
+|                                                        |                                                       |
+|             toLocaleString()                           |  It returns a string representing the object.         |
+|                                                        |                                                       |
+|             values()                                   |  Return an array whose elements are the enumerable    |
+|                                                        | property values found on the object.                  |
+|                                                        |                                                       |
+|________________________________________________________|_______________________________________________________|
+
+
+Instance Methods: If the method is called on an instance of a date object then it is called an instance method.
+
+_________________________________________________________________________________________________________________
+|                INSTANCE METHODS                        |                 DESCRIPTION                           |
+|________________________________________________________|_______________________________________________________|
+|                                                        |                                                       |
+|          defineGetter()                                |  Called when the specified property is looked up.     |
+|                                                        |                                                       |
+|          hasOwnProperty()                              |  Check whether the object has the specified property  |
+|                                                        | as its own property.                                  |
+|                                                        |                                                       |
+|          isPrototypeOf()                               |  Checks if an object exists in another object’s       |
+|                                                        | prototype chain.                                      |
+|                                                        |                                                       |
+|          isEnumerable()                                |  Returns a Boolean indicating whether the specified   |
+|                                                        | property is enumerable and is the object’s own        |
+|                                                        | property.                                             |
+|                                                        |                                                       |
+|________________________________________________________|_______________________________________________________|
